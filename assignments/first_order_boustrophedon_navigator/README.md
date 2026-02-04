@@ -92,20 +92,20 @@ Provide a detailed analysis of your tuning process:
 
 ### Repository Setup
 1. Fork the course repository:
-   - Visit: https://github.com/DREAMS-lab/RAS-SES-598-Space-Robotics-and-AI
+   - Visit: https://github.com/DREAMS-lab/ses598-space-robotics-and-ai-2026
    - Click "Fork" in the top-right corner
    - Select your GitHub account as the destination
 
 2. Clone your fork (outside of ros2_ws):
 ```bash
 cd ~/
-git clone https://github.com/YOUR_USERNAME/RAS-SES-598-Space-Robotics-and-AI.git
+git clone https://github.com/YOUR_USERNAME/ses598-space-robotics-and-ai-2026.git
 ```
 
 3. Create a symlink to the assignment in your ROS2 workspace:
 ```bash
 cd ~/ros2_ws/src
-ln -s ~/RAS-SES-598-Space-Robotics-and-AI/assignments/first_order_boustrophedon_navigator .
+ln -s ~/ses598-space-robotics-and-ai-2026/assignments/first_order_boustrophedon_navigator .
 ```
 
 ### Building and Running
